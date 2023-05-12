@@ -1,0 +1,11 @@
+:root  {
+    --cor-de-fundo:rgb(146, 92, 146);
+}
+
+body {
+    background-color: var(--cor-de-fundo)
+}
+
+h1 {
+    background-color:rgb(196, 97, 196);
+}
