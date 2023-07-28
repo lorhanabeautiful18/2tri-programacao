@@ -12,12 +12,28 @@
     <header class="cabecalho">
         <h1 class="cabecalho-titulo"> Lucena</h1>
         <nav class="cabecalho-menu">
-        <ul>
+            <span id="burguer" class="material-symbols-outlined"
+            onclick="clickMenu()">Menu</span>
+            <nav id="menu" class="cabecalho-menu">
+            
+            <script>
+            
+            function clickMenu() {
+            if (menu.style.display == 'block') {
+            menu.style.display = 'none';
+            } else {
+            menu.style.display = 'block';
+            }
+            }
+            </script>
+            <ul>
+
              <li><a class="cabecalho-menu-item"href="#"> Disciplina</a></li>
              <li><a class="cabecalho-menu-item"href="#"> Professores</a></li>
              <li><a class="cabecalho-menu-item"href="#"> Turmas</a></li>
         </ul>
         </nav>
     </header>
+
 </body>
 </html>
